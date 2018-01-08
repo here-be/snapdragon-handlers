@@ -1,7 +1,7 @@
 {
   "name": "snapdragon-handlers",
   "description": "Adds support for handlers, events and plugins to snapdragon libraries.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/here-be/snapdragon-handlers",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "here-be/snapdragon-handlers",
