@@ -1,0 +1,55 @@
+{
+  "name": "snapdragon-handlers",
+  "description": "Adds support for handlers, events and plugins to snapdragon libraries.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/here-be/snapdragon-handlers",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "here-be/snapdragon-handlers",
+  "bugs": {
+    "url": "https://github.com/here-be/snapdragon-handlers/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@sellside/emitter": "^1.2.1",
+    "use": "^3.1.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.3"
+  },
+  "keywords": [
+    "base",
+    "compile",
+    "compiler",
+    "convert",
+    "handlers",
+    "parse",
+    "parser",
+    "render",
+    "snapdragon",
+    "transform"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
